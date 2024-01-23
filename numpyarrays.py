@@ -30,4 +30,3 @@ for cell in a.flat:
 print(np.vstack((a, b)))
 print(np.hstack((a, b)))
 
-print(b >= 1)
