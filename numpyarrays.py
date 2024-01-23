@@ -25,4 +25,9 @@ b = np.ones((2, 2))
 print(a + b + 3)
 print(a.dot(b))  # dot product
 
+for cell in a.flat:
+    print(cell)
+print(np.vstack((a, b)))
+print(np.hstack((a, b)))
 
+print(b >= 1)
